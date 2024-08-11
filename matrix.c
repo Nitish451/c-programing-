@@ -1,22 +1,26 @@
-// #include <stdio.h>
+ // write a program to print n element in an array 
+#include <stdio.h>
 
-// int main()
-// {
-//    // write a program to print n element in an array 
-//     int i,j,a[49],n;
-//     printf("enter size of array");
-//     scanf("%d",&n);
-//     printf("enter element of array");
-//     for(i=0; i<n; i++){
-//         scanf("%d",&a[i]);
-//     }
-//     printf("elemebt of an arry are\n ");
-//     for(i=0; i<n; i++){
-//         printf("%d\n",a[i]);
-//     }
+int main()
+{
+  
+    int i,j,a[49],n;
+    printf("enter size of array");
+    scanf("%d",&n);
+    printf("enter element of array");
+    for(i=0; i<n; i++){
+        scanf("%d",&a[i]);
+    }
+    printf("elemebt of an arry are\n ");
+    for(i=0; i<n; i++){
+        printf("%d\n",a[i]);
+    }
 
-//     return 0;
-//} 
+    return 0;
+} 
+
+//multiplication of two matrices in 2D
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,4 +96,36 @@ int main() {
     }
 
     return 0;
+}
+
+
+// wap to take two dimensional array and show in mattrix form
+ #include <stdio.h>
+
+int main()
+{
+    int a[50][50], row, col, i, j;
+    printf("enter the number of row \n");
+    scanf("%d", &row);
+    printf("enter the number of col\n");
+    scanf("%d", &col);
+    printf("enter the element of matrix\n");
+    for (i = 0; i < row; i++)
+    {  for (j = 0; j < col; j++){
+      
+            scanf("%d", &a[i][j]);
+    }
+}
+
+printf("the matrix will be \n");
+for (i = 0; i < row; i++)
+{
+    for (j = 0; j < col; j++)
+    {
+        printf("%d\t", a[i][j]);
+        
+    }
+    printf("\n");
+}
+return 0;
 }

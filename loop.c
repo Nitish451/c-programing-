@@ -2,20 +2,29 @@
 
 int main()
 {
-    // int i;
-    // char y;
-    // printf("enter a number between 1 to 10 =  ");
-    // scanf("%d",&i);
-    // y = (i>10)? 'a':'b'; // ternary operator
-    // printf("%c", y);
-    // int n,i,sum=0,fact=1;
-    // printf("enter the number");
-    // scanf("%d",&n);
-    // for(i=1;i<=n; i++){
-    //     fact=fact*i;
-    // }
-    //     sum=sum+fact;
-    //     printf("%d",sum);
+    int i;
+    char y;
+    printf("enter a number between 1 to 10 =  ");
+    scanf("%d",&i);
+     y = (i>10)? 'a':'b'; // ternary operator
+    printf("%c", y);
+    int n,i,sum=0,fact=1;
+    printf("enter the number");
+    scanf("%d",&n);
+    for(i=1;i<=n; i++){
+        fact=fact*i;
+    }
+        sum=sum+fact;
+        printf("%d",sum);
+    return 0;
+
+}
+
+
+
+   #include <stdio.h>
+    void main()
+    {
     int i, j, arr[2][2], r, c;
     printf("enter the number of row");
     scanf("%d", &r);
